@@ -1,0 +1,8 @@
+2024-02-06 13:25:01 INFO: Starting application
+2024-02-06 13:25:03 ERROR: Unable to connect to database
+2024-02-06 13:25:05 DEBUG: Processing data
+2024-02-06 13:25:10 INFO: Data processed successfully
+2024-02-06 13:25:15 WARNING: Disk space low
+2024-02-06 13:25:20 ERROR: Server timeout
+2024-02-06 13:25:25 INFO: Application shutdown
+python
