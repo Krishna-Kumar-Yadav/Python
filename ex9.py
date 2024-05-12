@@ -1,4 +1,4 @@
-import csv
+""" import csv
 
 def calculate(filepath):
   column = 7
@@ -17,3 +17,26 @@ def calculate(filepath):
 
 
 calculate('StudentOutstandingReport.csv')
+
+ """
+
+class Solution:
+    def reversePrefix(self, word: str, ch: str) -> str:
+        a = ''
+        flag = False
+        for i in range(len(word)):
+            if word[i] == ch and flag == False:
+                a = word[i::-1]
+                flag = True
+                
+            elif flag == False:
+                a = word  
+
+            if flag:
+                a = a + word[i+1::1]
+                break              
+
+        return a  
+
+req = Solution()
+req.reversePrefix("xxxxxxx","c")                
